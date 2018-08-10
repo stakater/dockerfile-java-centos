@@ -1,4 +1,4 @@
-FROM stakater/centos-base-image
+FROM stakater/centos-base-image:7
 
 LABEL name="Stakater Java image on CentOS" \    
       maintainer="Stakater <stakater@aurorasolutions.io>" \
