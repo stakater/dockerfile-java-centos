@@ -4,3 +4,7 @@ This is a java image based on CentOS which is used by Stakater for its apps. The
 
 You can run this image by:
 `docker run -it stakater/java-centos-image /bin/bash`
+
+## Tags
+
+- 1.8: CentOS with java jdk 1.8 installed
