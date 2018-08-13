@@ -12,6 +12,8 @@ RUN yum update -y && \
     yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel && \
     yum clean all
 
+ENV JAVA_HOME /usr/lib/jvm/java
+
 # Again using non-root user i.e. stakater as set in base image
 USER 10001
 
