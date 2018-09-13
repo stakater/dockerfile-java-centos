@@ -3,5 +3,5 @@
 
 pushDockerImage {
     dockerRegistryURL = "docker.io"
-    imageVersion = "7-1.8"
+    imagePrefix = "1.8-centos7"
 }
